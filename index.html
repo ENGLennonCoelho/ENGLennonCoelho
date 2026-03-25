@@ -1,41 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Lennon Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Converter Markdown -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<title>Lennon Coelho Chaves | Portfólio</title>
 
-  <style>
-    body {
-      font-family: Arial;
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-      background: #0f172a;
-      color: white;
+<!-- Markdown converter -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<style>
+
+/* BASE */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #475569;
+}
+
+/* CARD */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* TITULOS */
+h1, h2, h3 {
+    color: #1e293b;
+}
+
+/* DESTAQUES */
+strong {
+    color: #2563eb;
+}
+
+/* LINKS */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* LISTAS */
+li {
+    margin: 8px 0;
+}
+
+/* LINHA */
+hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 30px 0;
+}
+
+/* BADGES CENTRALIZADOS */
+p img {
+    margin: 5px;
+}
+
+/* ANIMAÇÃO SUAVE */
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.6s ease forwards;
+}
+
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+.card:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
+}
 
-    h1, h2, h3 {
-      color: #22c55e;
-    }
-
-    a {
-      color: #3b82f6;
-    }
-  </style>
+</style>
 </head>
 
 <body>
 
-<div id="content">Carregando...</div>
+<div class="container">
+
+    <div class="header">
+        <h1>👨‍💻 Lennon Coelho Chaves</h1>
+        <p>Data | Automação | Projetos | Melhoria Contínua</p>
+    </div>
+
+    <div id="content"></div>
+
+</div>
 
 <script>
 fetch("README.md")
   .then(response => response.text())
   .then(text => {
-    document.getElementById("content").innerHTML = marked.parse(text);
+    let html = marked.parse(text);
+
+    // quebra em seções e transforma em cards
+    const sections = html.split("<h2");
+    let finalHTML = "";
+
+    sections.forEach((sec, index) => {
+        if(index === 0){
+            finalHTML += `<div class="card">${sec}</div>`;
+        } else {
+            finalHTML += `<div class="card"><h2${sec}</div>`;
+        }
+    });
+
+    document.getElementById("content").innerHTML = finalHTML;
   });
 </script>
 
