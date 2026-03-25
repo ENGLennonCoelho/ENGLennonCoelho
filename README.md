@@ -2,7 +2,7 @@
 ### 🚀 Data | Automação | Projetos | Melhoria Contínua  
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=000000&size=25&center=true&vCenter=true&width=1000&lines=Transformando+processos+em+resultados;Automação+%2B+Dados+%2B+Eficiência;6%2B+anos+gerando+impacto+real" />
+  <img src="https://readme-typing-svg.herokuapp.com/?color=000000&size=25&center=true&vCenter=true&width=1000&lines=Transformando+processos+em+resultados;Automação+%2B+Dados+%2B+Eficiência;Dados+%2B+Processos+%2B+Tecnologia;6%2B+anos+gerando+impacto+real" />
 </p>
 
 ---
@@ -13,8 +13,9 @@ Sou especialista em **Dados, Automação e Melhoria Contínua**, com mais de **6
 
 💡 Meu diferencial é claro:  
 ➡️ **reduzir retrabalho**  
-➡️ **automatizar processos**  
+➡️ **automatizar processos críticos**  
 ➡️ **gerar indicadores estratégicos em tempo real**  
+➡️ **conectar operação, dados e tecnologia**
 
 ---
 
@@ -23,6 +24,7 @@ Sou especialista em **Dados, Automação e Melhoria Contínua**, com mais de **6
 <p align="center">
   <img src="https://img.shields.io/badge/%2B40%25-Eficiência-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/%2B30%25-Produtividade-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/-25%25-Falhas-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/%2B20h%2Fmês-Automação-black?style=for-the-badge"/>
 </p>
 
@@ -53,14 +55,9 @@ Lean | PDCA | Kaizen | 5S | ISO 9001 | ISO 14001 | ISO 27001
 # 💼 Experiência com Tecnologias Aplicadas  
 
 ## 🟢 Nike (Grupo SBF)  
-**Foco:** Dados | Automação | Planejamento  
+[🔎 Ver case completo](./cases/nike.md)
 
-💻 Tecnologias:
-- SQL (Data Lake)
-- Power BI  
-- Power Automate  
-- Power Apps  
-- Excel VBA  
+**Stack:** SQL | Power BI | Power Automate | Power Apps | VBA  
 
 📊 Resultados:
 - +20h/mês economizadas  
@@ -70,29 +67,21 @@ Lean | PDCA | Kaizen | 5S | ISO 9001 | ISO 14001 | ISO 27001
 ---
 
 ## 🔵 Itaú CEIC  
-**Foco:** Transformação Digital | Processos  
+[🔎 Ver case completo](./cases/itau.md)
 
-💻 Tecnologias:
-- Power Platform (BI, Apps, Automate)  
-- SharePoint  
-- SQL  
-- Excel  
+**Stack:** Power Platform | SharePoint | SQL  
 
 📊 Resultados:
 - -40% tempo de processos  
 - -25% falhas operacionais  
-- Governança de dados estruturada  
+- Governança de dados  
 
 ---
 
 ## 🟡 J&T Express  
-**Foco:** Logística | Dados | Automação  
+[🔎 Ver case completo](./cases/jt.md)
 
-💻 Tecnologias:
-- Power BI  
-- Python  
-- Excel Avançado  
-- SQL  
+**Stack:** Python | Power BI | SQL  
 
 📊 Resultados:
 - -30% tempo de análise  
@@ -101,35 +90,62 @@ Lean | PDCA | Kaizen | 5S | ISO 9001 | ISO 14001 | ISO 27001
 
 ---
 
-## 🔴 VTC Log  
-**Foco:** Qualidade | Processos | Treinamentos  
+## 🔴 VTC LOG (Projeto COVID & Comércio Exterior)  
+[🔎 Ver case completo](./cases/vtclog.md)
 
-💻 Tecnologias:
-- Excel  
-- VBA  
-- Bizagi  
-- Visio  
+**Foco:** Qualidade | Processos | Importação de Medicamentos  
+
+💻 Stack:
+- Excel | VBA  
+- Bizagi | Visio  
+- SAP | TOTVS  
+- Power BI  
+
+📊 Atuação estratégica:
+
+- Implantação de processos para **importação de medicamentos (COVID-19)**  
+- Atuação em **projetos piloto (testes + auditorias)**  
+- Estruturação de processos regulatórios e logísticos  
+
+📦 Comércio Exterior (nível pleno):
+
+- Catálogo de Produtos (NCM, atributos, padronização)  
+- LPCO e integração com DUIMP  
+- Simulação em ambiente oficial (CCT, PCCE)  
+- Classificação fiscal e compliance regulatório  
+- Despacho antecipado (modelo OEA)  
 
 📊 Resultados:
 - 500+ colaboradores treinados  
-- Projeto COVID com zero perdas  
+- Zero perdas em operação COVID  
 - 100% processos mapeados  
+- Aumento da conformidade regulatória  
 
 ---
 
 # 🚀 Projetos em Destaque  
 
 ## 🔹 Automação com Python  
-Automação de conferência de dados logísticos  
+➡️ Conferência automatizada de dados logísticos  
 
 ## 🔹 Dashboard Power BI  
-Monitoramento de indicadores operacionais  
+➡️ Monitoramento de KPIs operacionais  
 
 ## 🔹 Power Apps Corporativo  
-Gestão de solicitações e workflows  
+➡️ Gestão de workflows e solicitações  
 
 ## 🔹 Plataforma de Treinamento  
-Gestão de capacitação e trilhas  
+➡️ Gestão de trilhas e capacitação  
+
+---
+
+# 🧠 Como chego nesses resultados  
+
+✔️ Integração de dados (SQL + BI)  
+✔️ Automação de processos (Python / Power Platform)  
+✔️ Mapeamento e redesenho (Lean + Bizagi)  
+✔️ Padronização e governança (ISO + auditorias)  
+✔️ Foco em impacto mensurável (KPIs reais)  
 
 ---
 
