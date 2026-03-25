@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lennon Portfolio</title>
+
+  <!-- Converter Markdown -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #0f172a;
+      color: white;
+    }
+
+    h1, h2, h3 {
+      color: #22c55e;
+    }
+
+    a {
+      color: #3b82f6;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="content">Carregando...</div>
+
+<script>
+fetch("README.md")
+  .then(response => response.text())
+  .then(text => {
+    document.getElementById("content").innerHTML = marked.parse(text);
+  });
+</script>
+
+</body>
+</html>
