@@ -1,26 +1,38 @@
-# 🟢 Nike | Engenharia de Dados e Automação
+# 📌 Nike | Automação e Eficiência Operacional
 
-## 🎯 Problema
-Dados descentralizados e alto volume de trabalho manual para geração de relatórios.
+## 🎯 Contexto
+Operação logística e comercial com alto volume de dados e dependência de processos manuais.
 
----
+## 🚨 Problema
+- Baixa eficiência operacional
+- Retrabalho manual constante
+- Baixa visibilidade dos dados
+- Tempo elevado para tomada de decisão
 
-## ⚙️ Solução
+## 🧠 Hipótese / Tese
+Se automatizarmos a coleta e tratamento de dados operacionais, reduzimos erros humanos e aceleramos a tomada de decisão.
 
-- Integração de dados via SQL (Data Lake)
-- Automação com Power Automate
-- Dashboards Power BI
+## 📊 Dados Utilizados
+- Base de pedidos (SKU, volume, tempo)
+- Logs operacionais
+- SLA de processamento
+- Dados de estoque e movimentação
 
----
+Volume médio: +100 mil registros/dia
 
-## 💻 Exemplo SQL
+## ⚙️ Solução Técnica
+- Criação de pipelines automatizados
+- Dashboards para acompanhamento em tempo real
+- Scripts para limpeza e padronização de dados
 
-```sql
-SELECT 
-    pedido_id,
-    SUM(valor) as receita,
-    COUNT(*) as volume
-FROM vendas
-WHERE data >= CURRENT_DATE - INTERVAL '30 days'
-GROUP BY pedido_id
-ORDER BY receita DESC;
+## 🧪 Como Foi Implementado
+
+### Python (ETL)
+```python
+import pandas as pd
+
+df = pd.read_csv("pedidos.csv")
+
+df["tempo_processo"] = pd.to_datetime(df["fim"]) - pd.to_datetime(df["inicio"])
+
+df_clean = df.dropna()
