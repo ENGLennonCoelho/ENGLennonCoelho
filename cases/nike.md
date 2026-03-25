@@ -36,3 +36,21 @@ df = pd.read_csv("pedidos.csv")
 df["tempo_processo"] = pd.to_datetime(df["fim"]) - pd.to_datetime(df["inicio"])
 
 df_clean = df.dropna()
+
+### SQL
+```SQL
+SELECT 
+    sku,
+    COUNT(*) as volume,
+    AVG(tempo_processo) as tempo_medio
+FROM pedidos
+GROUP BY sku
+
+📈 Resultado
++40% eficiência operacional
+-25% falhas
+Redução significativa de retrabalho
+Decisão baseada em dados em tempo real
+🛠️ Stack Tecnológica
+
+Python | SQL | Excel | Power BI | Automação
