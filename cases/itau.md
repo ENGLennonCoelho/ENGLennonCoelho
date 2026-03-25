@@ -1,5 +1,3 @@
-# 🔵 CASE — ITAÚ
-
 ```md
 # 📌 Itaú | Estruturação de Dados e Governança
 
