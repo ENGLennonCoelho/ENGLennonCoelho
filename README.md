@@ -9,13 +9,20 @@
 
 ## 🧠 Sobre mim  
 
-Sou especialista em **Dados, Automação e Melhoria Contínua**, com mais de **6 anos de experiência** transformando operações através de tecnologia.
+Sou especialista em **Dados, Automação e Melhoria Contínua**, com mais de **6 anos de experiência** transformando operações através de tecnologia e análise estratégica.
 
 💡 Meu diferencial é claro:  
-➡️ **reduzir retrabalho**  
+➡️ **reduzir retrabalho e falhas operacionais**  
 ➡️ **automatizar processos críticos**  
 ➡️ **gerar indicadores estratégicos em tempo real**  
-➡️ **conectar operação, dados e tecnologia**
+➡️ **conectar operação, dados, tecnologia e risco**
+
+📦 **Diferencial em Comércio Exterior:**  
+Atuação em processos de **importação com alta complexidade regulatória**, estruturando dados para garantir:  
+✔ compliance aduaneiro  
+✔ mitigação de riscos fiscais  
+✔ previsibilidade operacional  
+✔ redução de perdas financeiras  
 
 ---
 
@@ -45,6 +52,17 @@ Sou especialista em **Dados, Automação e Melhoria Contínua**, com mais de **6
 ![Power Automate](https://img.shields.io/badge/PowerAutomate-2%2B%20anos-black?style=for-the-badge)
 ![Power Apps](https://img.shields.io/badge/PowerApps-2%2B%20anos-purple?style=for-the-badge)
 ![VBA](https://img.shields.io/badge/VBA-8%2B%20anos-darkgreen?style=for-the-badge)
+
+## 🌍 Comércio Exterior & Dados  
+![SQL](https://img.shields.io/badge/Data%20Validation-Importação-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Data%20Analysis-Risco%20Fiscal-green?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Compliance-Regulatório-black?style=for-the-badge)
+
+✔ Classificação fiscal (NCM)  
+✔ Validação de dados (Invoice, DI, Packing List)  
+✔ Simulação de cenários tributários  
+✔ Análise de risco em importação  
+✔ Integração com DUIMP, LPCO, CCT  
 
 ## 🏭 Processos  
 Lean | PDCA | Kaizen | 5S | ISO 9001 | ISO 14001 | ISO 27001  
@@ -96,45 +114,49 @@ Lean | PDCA | Kaizen | 5S | ISO 9001 | ISO 14001 | ISO 27001
 
 💻 Stack:
 - Excel | VBA  
+- Python (tratamento e validação de dados)  
+- SQL (análise e consolidação)  
 - Bizagi | Visio  
 - SAP | TOTVS  
 - Power BI  
 
-📊 Atuação estratégica:
+📦 Comércio Exterior (nível avançado):
 
-- Implantação de processos para **importação de medicamentos (COVID-19)**  
-- Atuação em **projetos piloto (testes + auditorias)**  
-- Estruturação de processos regulatórios e logísticos  
+- Estruturação de catálogo de produtos (NCM, atributos)  
+- Validação de consistência entre Invoice, DI e documentos logísticos  
+- Simulação de cenários tributários (II, IPI, ICMS, PIS/COFINS)  
+- Integração com LPCO, DUIMP, CCT e PCCE  
+- Apoio a despacho antecipado (modelo OEA)  
 
-📦 Comércio Exterior (nível pleno):
+📊 Atuação orientada a dados:
 
-- Catálogo de Produtos (NCM, atributos, padronização)  
-- LPCO e integração com DUIMP  
-- Simulação em ambiente oficial (CCT, PCCE)  
-- Classificação fiscal e compliance regulatório  
-- Despacho antecipado (modelo OEA)  
+- Identificação de divergências fiscais e documentais  
+- Análise de risco por operação  
+- Estruturação de indicadores de compliance  
+- Padronização de dados para evitar erros de declaração  
 
 📊 Resultados:
 - 500+ colaboradores treinados  
 - Zero perdas em operação COVID  
 - 100% processos mapeados  
 - Aumento da conformidade regulatória  
+- Redução de riscos fiscais e operacionais  
 
 ---
 
 # 🚀 Projetos em Destaque  
 
 ## 🔹 Automação com Python  
-➡️ Conferência automatizada de dados logísticos  
+➡️ Conferência automatizada de dados logísticos e fiscais  
 
 ## 🔹 Dashboard Power BI  
-➡️ Monitoramento de KPIs operacionais  
+➡️ Monitoramento de KPIs operacionais e indicadores de risco  
 
 ## 🔹 Power Apps Corporativo  
-➡️ Gestão de workflows e solicitações  
+➡️ Gestão de workflows e validação de processos  
 
 ## 🔹 Plataforma de Treinamento  
-➡️ Gestão de trilhas e capacitação  
+➡️ Gestão de trilhas e capacitação operacional  
 
 ---
 
@@ -142,8 +164,10 @@ Lean | PDCA | Kaizen | 5S | ISO 9001 | ISO 14001 | ISO 27001
 
 ✔️ Integração de dados (SQL + BI)  
 ✔️ Automação de processos (Python / Power Platform)  
+✔️ Validação e cruzamento de dados críticos  
 ✔️ Mapeamento e redesenho (Lean + Bizagi)  
-✔️ Padronização e governança (ISO + auditorias)  
+✔️ Governança e compliance (ISO + regulatório)  
+✔️ Análise de risco baseada em dados  
 ✔️ Foco em impacto mensurável (KPIs reais)  
 
 ---
