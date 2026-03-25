@@ -1,4 +1,3 @@
-```md
 # 📌 Itaú | Estruturação de Dados e Governança
 
 ## 🎯 Contexto
