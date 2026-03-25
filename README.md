@@ -24,7 +24,6 @@ Sou especialista em **Dados, Automação e Melhoria Contínua**, com mais de **6
 <p align="center">
   <img src="https://img.shields.io/badge/%2B40%25-Eficiência-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/%2B30%25-Produtividade-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/-25%25-Falhas-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/%2B20h%2Fmês-Automação-black?style=for-the-badge"/>
 </p>
 
