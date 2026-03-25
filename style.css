@@ -1,0 +1,29 @@
+body {
+    background: #020617;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.hero {
+    padding: 100px;
+}
+
+.card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+a {
+    display: block;
+    margin: 10px;
+    color: #22c55e;
+}
